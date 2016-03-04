@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Represent!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_search">Search!</string>
+    <string-array name="district_array">
+        <item>District 1</item>
+        <item>District 2</item>
+        <item>District 3</item>
+        <item>District 4</item>
+        <item>District 5</item>
+        <item>District 6</item>
+        <item>District 7</item>
+        <item>District 8</item>
+    </string-array>
+</resources>
