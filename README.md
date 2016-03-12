@@ -1,7 +1,6 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
-
+Represent! is an app that locates your current location by zip code and show the representatives in the current district. Also, you can view the detail information of the representatives. On the phone side, you can see the brief profiles of the representatives and the election 2012 data of the current district.
 ## Authors
 
 Zelong Li ([lizelong1993@berkeley.edu](mailto:lizelong1993@berkeley.edu))
