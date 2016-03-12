@@ -18,17 +18,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Party: Democratic"/>
+        android:id="@+id/party"
+        android:text="Party: "/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="End Date of Term: Feb, 2016"/>
+        android:id="@+id/term"
+        android:text="End Date of Term: "/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Committees: Committes 1"/>
+        android:id="@+id/committees"
+        android:text="Committees: "/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recent Bills: Cell Phone Act"/>
+        android:id="@+id/bills"
+        android:text="Recent Bills: "/>
 </LinearLayout>

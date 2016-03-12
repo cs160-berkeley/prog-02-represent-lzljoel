@@ -16,11 +16,11 @@ public class VoteView extends WearableActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vote_2012);
-        Intent fromPhone = getIntent();
-        Bundle phoneBundle = fromPhone.getExtras();
-        String zip = phoneBundle.getString("zipCode");
-        TextView voteLoc = (TextView) findViewById(R.id.voteArea);
-        voteLoc.setText(zip);
-        Toast.makeText(getApplicationContext(), zip, Toast.LENGTH_SHORT).show();
+//        Intent fromPhone = getIntent();
+//        Bundle phoneBundle = fromPhone.getExtras();
+//        String zip = phoneBundle.getString("zipCode");
+//        TextView voteLoc = (TextView) findViewById(R.id.voteArea);
+//        voteLoc.setText(zip);
+//        Toast.makeText(getApplicationContext(), zip, Toast.LENGTH_SHORT).show();
     }
 }

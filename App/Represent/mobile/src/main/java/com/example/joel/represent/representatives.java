@@ -6,25 +6,29 @@ import android.widget.ImageView;
  * Created by joel on 3/1/16.
  */
 public class representatives {
-    private int id;
+    private String id;
     private String name;
     private String party;
+    private String term;
     private String website;
     private String email;
     private String tweet;
-    private int image;
+//    private int image;
 
-    public representatives(int id, String name, String party, String website, String email, String tweet, int image) {
+    public representatives(String id, String name, String party,String term, String website, String email, String tweet) {
         this.id = id;
         this.name = name;
         this.party = party;
+        this.term = term;
         this.website = website;
         this.email = email;
         this.tweet = tweet;
-        this.image = image;
+//        this.image = image;
     }
-
-    public int getId() {
+    public String getTerm(){
+        return term;
+    }
+    public String getId() {
         return id;
     }
 
@@ -48,7 +52,7 @@ public class representatives {
         return tweet;
     }
 
-    public int getImage() {
-        return image;
-    }
+//    public int getImage() {
+//        return image;
+//    }
 }

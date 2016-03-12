@@ -47,9 +47,9 @@ public class PhoneToWatchService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         // Which cat do we want to feed? Grab this info from INTENT
         // which was passed over when we called startService
-        Bundle extras = intent.getExtras();
+        final Bundle extras = intent.getExtras();
         final String zipCode = extras.getString("zipCode");
-
+        final String latAndLong = extras.getString("lat") + "," + extras.getString("long");
         // Send the message with the zip code
         new Thread(new Runnable() {
             @Override
@@ -57,7 +57,12 @@ public class PhoneToWatchService extends Service {
                 //first, connect to the apiclient
                 mApiClient.connect();
                 //now that you're connected, send a massage with the zip code
-                sendMessage("/" + zipCode, zipCode);
+                if(zipCode != null){
+                    sendMessage("/" + zipCode, zipCode);
+                }
+                else{
+                    sendMessage("/" + latAndLong, latAndLong);
+                }
             }
         }).start();
 

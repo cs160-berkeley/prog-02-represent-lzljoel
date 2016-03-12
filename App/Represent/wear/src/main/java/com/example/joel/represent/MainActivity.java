@@ -62,10 +62,10 @@ public class MainActivity extends WearableActivity {
         }
     }
 
-    /*
+
     public void test(View view) {
         Intent test = new Intent(this,ListView.class);
         startActivity(test);
     }
-    */
+
 }

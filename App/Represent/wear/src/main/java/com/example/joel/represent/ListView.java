@@ -40,10 +40,10 @@ public class ListView extends WearableActivity implements SensorEventListener {
         dotsPageIndicator.setPager(pager);
 
 
-        Intent fromPhone = getIntent();
-        Bundle phoneBundle = fromPhone.getExtras();
-        String zip = phoneBundle.getString("zipCode");
-        Toast.makeText(getApplicationContext(), zip, Toast.LENGTH_SHORT).show();
+//        Intent fromPhone = getIntent();
+//        Bundle phoneBundle = fromPhone.getExtras();
+//        String zip = phoneBundle.getString("zipCode");
+//        Toast.makeText(getApplicationContext(), zip, Toast.LENGTH_SHORT).show();
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mAcc = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -52,19 +52,19 @@ public class ListView extends WearableActivity implements SensorEventListener {
     }
     public void voteView(View view) {
         Intent goVote = new Intent(this, VoteView.class);
-        Bundle loc = new Bundle();
-        Intent fromPhone = getIntent();
-        Bundle phoneBundle = fromPhone.getExtras();
-        String zip = phoneBundle.getString("zipCode");
-        loc.putString("zipCode",zip);
-        goVote.putExtras(loc);
+//        Bundle loc = new Bundle();
+//        Intent fromPhone = getIntent();
+//        Bundle phoneBundle = fromPhone.getExtras();
+//        String zip = phoneBundle.getString("zipCode");
+//        loc.putString("zipCode",zip);
+//        goVote.putExtras(loc);
         startActivity(goVote);
     }
     public void goPhone(View view){
         Intent goPhone = new Intent(this, WatchToPhoneService.class);
-        Bundle b = new Bundle();
-        b.putString("zipCode", "zip");
-        goPhone.putExtras(b);
+//        Bundle b = new Bundle();
+//        b.putString("zipCode", "zip");
+//        goPhone.putExtras(b);
         startService(goPhone);
     }
 

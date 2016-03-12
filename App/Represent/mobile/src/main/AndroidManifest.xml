@@ -3,6 +3,14 @@
     package="com.example.joel.represent">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <dependency>
+        <groupId>com.squareup.picasso</groupId>
+        <artifactId>picasso</artifactId>
+        <version>2.5.2</version>
+    </dependency>
 
     <application
         android:allowBackup="true"
@@ -34,6 +42,14 @@
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
         </service>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCsj6cVMKRZP8VCQsC7juSg25kV0KdXUAE"/>
+        <dependency>
+            <groupId>com.squareup.picasso</groupId>
+            <artifactId>picasso</artifactId>
+            <version>2.5.2</version>
+        </dependency>
     </application>
 
 </manifest>
