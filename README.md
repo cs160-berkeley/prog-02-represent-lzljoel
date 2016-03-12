@@ -12,7 +12,7 @@ See [prog02-c] (https://vimeo.com/158711605)
 
 ## Screenshots
 
-<img src="screenshots/all" height="400" alt="Screenshot"/>
+<img src="screenshots/." height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
