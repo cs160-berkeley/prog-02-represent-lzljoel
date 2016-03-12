@@ -11,12 +11,6 @@ Zelong Li ([lizelong1993@berkeley.edu](mailto:lizelong1993@berkeley.edu))
 See [prog02-c] (https://vimeo.com/158711605)
 
 ## Screenshots
-
-<img src="screenshots/Screen Shot 2016-02-05 at 1.38.02 PM.png" height="400" alt="Screenshot"/>
-<img src="screenshots/Screen Shot 2016-02-05 at 1.38.28 PM.png" height="400" alt="Screenshot"/>
-<img src="screenshots/Screen Shot 2016-02-05 at 1.38.43 PM.png" height="400" alt="Screenshot"/>
-<img src="screenshots/Screen Shot 2016-02-05 at 1.38.59 PM.png" height="400" alt="Screenshot"/>
-<img src="screenshots/Screen Shot 2016-02-05 at 1.39.15 PM.png" height="400" alt="Screenshot"/>
 <img src="screenshots/Screen Shot 2016-03-11 at 8.40.50 PM.png" height="400" alt="Screenshot"/>
 <img src="screenshots/Screen Shot 2016-03-11 at 8.41.10 PM.png" height="400" alt="Screenshot"/>
 <img src="screenshots/Screen Shot 2016-03-11 at 8.41.26 PM.png" height="400" alt="Screenshot"/>
