@@ -4,15 +4,15 @@ Briefly describe your app here.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Zelong Li ([lizelong1993@berkeley.edu](mailto:lizelong1993@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [prog02-c] (https://vimeo.com/158711605)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/all" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
